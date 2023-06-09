@@ -1,0 +1,869 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Final_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final_Project.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\animated-headline.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animated-headline.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\gijgo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\gijgo.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\progressbar_barfiller.css",
+      "PackagePath": "staticwebassets\\assets\\css\\progressbar_barfiller.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\gijgo-material.eot@235541",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gijgo-material.eot@235541"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\gijgo-material.svg@235541",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gijgo-material.svg@235541"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\gijgo-material.ttf@235541",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gijgo-material.ttf@235541"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\gijgo-material.woff@235541",
+      "PackagePath": "staticwebassets\\assets\\fonts\\gijgo-material.woff@235541"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\themify.eot@",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\themify.eot@-fvbane",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.eot@-fvbane"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\themify.svg@-fvbane",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.svg@-fvbane"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\themify.ttf@-fvbane",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.ttf@-fvbane"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\fonts\\themify.woff@-fvbane",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff@-fvbane"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\comment_1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment_1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\comment_2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment_2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\comment_3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment_3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\assets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\about1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\about1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\about2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\about2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival4.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival5.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival6.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival7.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\arrival8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\arrival8.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\card.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\card.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\favorit-card.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\favorit-card.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\gallery1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\gallery2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\gallery3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\gallery4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\gallery4.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\map.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\map.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular-imtes1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular-imtes1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular-imtes2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular-imtes2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\gallery\\popular4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\popular4.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\hero\\slide1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\hero\\slide2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\slide2.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\hero\\slide3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\slide3.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\icon\\services1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\services1.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\icon\\services2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\services2.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\icon\\services3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\services3.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\icon\\services4.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\services4.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\logo\\loder.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\loder.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\logo\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\logo\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo2_footer.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\next.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\animated.headline.js",
+      "PackagePath": "staticwebassets\\assets\\js\\animated.headline.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\hover-direction-snake.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hover-direction-snake.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.barfiller.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mail-script.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Final_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Final_Project.props",
+      "PackagePath": "build\\Final_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Final_Project.props",
+      "PackagePath": "buildMultiTargeting\\Final_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Final_Project.props",
+      "PackagePath": "buildTransitive\\Final_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

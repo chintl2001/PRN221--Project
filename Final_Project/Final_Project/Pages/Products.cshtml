@@ -1,0 +1,88 @@
+﻿@page
+@model ProductModel
+@using Final_Project.Models;
+
+<div class="category-area">
+    <div class="container">
+            <div class="col-xl-7 col-lg-8 col-md-10">
+                <div class="section-tittle mb-50">
+                    <h2>Shop with us</h2>
+                    <p>Browse from @Model.Products.Count() latest items</p>
+                </div>
+            </div>
+        <div class="row">
+
+            <div class="col-xl-3 col-lg-3 col-md-4 ">
+
+                <div class="category-listing mb-50">
+
+                    <div class="single-listing">
+
+                        <div class="select-job-items2">
+                        <input type="text" class="form-control" style="height:5rem; margin-bottom:2rem; font-size:1.5rem;" placeholder="Search anything...">
+                        </div>
+
+                        <div class="select-job-items2">
+                            <select name="category">
+                                <option value="">Category</option>
+                            @foreach(var category in Model.Categories)
+                            {
+                                Category category1 = (Category)category;
+                                <option value="@category1.Id">@category1.Name</option>
+                            }
+                        </select>
+                        </div>
+
+                        <div class="select-job-items2">
+                            <select name="price">
+                                <option value="">Price</option>
+                                <option value="ascending">Ascending</option>
+                                <option value="descending">Descending</option>
+                            </select>
+                        </div>
+                        <div class="select-job-items2">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          
+             <div class="col-xl-9 col-lg-9 col-md-8 ">
+
+                  <div class="new-arrival new-arrival2">
+                        <div class="row">
+                        @foreach (var product in Model.Products)
+                        {
+                            Product product1 = (Product)product;
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-new-arrival mb-50 text-center">
+                                    <div class="popular-img">
+                                        <img style="height:40rem;" src="@product1.Image" alt="">
+                                        <div class="favorit-items">
+
+                                            <img src="assets/img/gallery/favorit-card.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="popular-caption">
+                                        <h3><a asp-page="ProductDetail">@product1.Name</a></h3>
+                                        <div class="rating mb-10">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span>$ @product1.Price .00</span>
+                                    </div>
+                                </div>
+                            </div>
+                         }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
