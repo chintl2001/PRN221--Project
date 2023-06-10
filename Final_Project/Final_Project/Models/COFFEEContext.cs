@@ -41,6 +41,7 @@ namespace Final_Project.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.Content).HasColumnType("text");
+                entity.Property(e => e.ShortContent).HasColumnType("text");
                 entity.Property(e => e.Image).HasColumnType("text");
 
                 entity.Property(e => e.PublishDate)

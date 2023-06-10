@@ -9,6 +9,7 @@ namespace Final_Project.Models
         public string? Title { get; set; }
         public string? Image { get; set; }
         public string? Content { get; set; }
+        public string? ShortContent { get; set; }
         public string? Author { get; set; }
         public DateTime? PublishDate { get; set; }
     }
