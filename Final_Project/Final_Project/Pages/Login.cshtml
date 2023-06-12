@@ -1,0 +1,52 @@
+﻿@page
+@model Final_Project.Pages.LoginModel
+@{
+    Layout = "_LoginSignup";
+}
+<div class="form-body">
+    <div class="website-logo">
+        <a href="index.html">
+            <div class="logo">
+                <img class="logo-size" src="account/images/logo-light.svg" alt="">
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="img-holder">
+            <div class="bg"></div>
+            <div class="info-holder">
+            </div>
+        </div>
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Awaken Your Senses with Our Exquisite Coffee</h3>
+                    <p>Indulge in the Rich Aroma and Flavors of our Coffee Delights.</p>
+                    <div class="page-links">
+                        <a asp-page="Login" class="active">Login</a><a asp-page="Register">Register</a>
+                    </div>
+                    <div class="alert alert-warning alert-dismissible fade show with-icon" role="alert">
+                        Please fill the following form with your information
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form asp-page="Login" method="post">
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+                        }
+                        <input class="form-control" asp-for="@Model.Username" type="text" placeholder="Username" required>
+                        <input class="form-control" asp-for="@Model.Password" type="password" placeholder="Password" required>
+                        <div class="form-button">
+                            <button id="submit" type="submit" class="ibtn">Login</button>
+                        </div>
+                    </form>
+                    <div class="other-links">
+                        <span>Or login with</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

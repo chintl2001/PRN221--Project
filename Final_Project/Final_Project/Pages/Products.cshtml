@@ -13,38 +13,38 @@
         <div class="row">
 
             <div class="col-xl-3 col-lg-3 col-md-4 ">
-
                 <div class="category-listing mb-50">
+                    <form asp-page="Products" method="post">
+                        <div class="single-listing">
 
-                    <div class="single-listing">
+                            <div class="select-job-items2">
+                                <input type="text" value="@Model.SearchText" name="searchText" class="form-control" style="height:5rem; margin-bottom:2rem; font-size:1.5rem;" placeholder="Search anything...">
+                            </div>
 
-                        <div class="select-job-items2">
-                        <input type="text" class="form-control" style="height:5rem; margin-bottom:2rem; font-size:1.5rem;" placeholder="Search anything...">
+                            <div class="select-job-items2">
+                                <select name="category">
+                                    <option value="">Category</option>
+                                    @foreach (var category in Model.Categories ?? Enumerable.Empty<Category>())
+                                    {
+                                        Category category1 = (Category)category;
+                                        <option value="@category1.Id" selected="@(category1.Id.ToString().Equals( Model.Category))">@category1.Name</option>
+                                    }
+                                </select>
+                            </div>
+
+                            <div class="select-job-items2">
+                                <select name="price">
+                                    <option value="">Price</option>
+                                    <option value="ascending" selected="@(Model.Price == "ascending")">Ascending</option>
+                                    <option value="descending" selected="@(Model.Price == "descending")">Descending</option>
+                                </select>
+                            </div>
+                            <div class="select-job-items2">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+
                         </div>
-
-                        <div class="select-job-items2">
-                            <select name="category">
-                                <option value="">Category</option>
-                            @foreach(var category in Model.Categories)
-                            {
-                                Category category1 = (Category)category;
-                                <option value="@category1.Id">@category1.Name</option>
-                            }
-                        </select>
-                        </div>
-
-                        <div class="select-job-items2">
-                            <select name="price">
-                                <option value="">Price</option>
-                                <option value="ascending">Ascending</option>
-                                <option value="descending">Descending</option>
-                            </select>
-                        </div>
-                        <div class="select-job-items2">
-                            <button type="submit" class="btn btn-primary">Search</button>
-                        </div>
-
-                    </div>
+                    </form>
                 </div>
             </div>
           

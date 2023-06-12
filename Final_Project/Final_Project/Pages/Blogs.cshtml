@@ -5,9 +5,6 @@
 
     <div class="container">
         <div class="row">
-
-
-
             <section class="blog_area section-padding">
                 <div class="container">
                     <div class="row">
@@ -29,7 +26,7 @@
                                             </a>
                                         </div>
                                         <div class="blog_details">
-                                            <a class="d-inline-block" href="blog_details.html">
+                                            <a class="d-inline-block" asp-page="BlogDetail" asp-route-id="@blog1.Id">
                                                 <h2 class="blog-head" style="color: #2d2d2d;">@blog1.Title</h2>
                                             </a>
                                             <p>
@@ -48,10 +45,10 @@
                         <div class="col-lg-4">
                             <div class="blog_right_sidebar">
                                 <aside class="single_sidebar_widget search_widget">
-                                    <form asp-page="Blogs" method="post">
+                                    <form asp-page="Blog" method="post">
                                         <div class="form-group">
                                             <div class="input-group mb-3">
-                                                <input type="text" name="title" value="@Model.Title" class="form-control" placeholder='Search Keyword' onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
+                                                <input type="text" name="title" value="@Model.Title"  class="form-control" placeholder='Search Keyword' onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Keyword'">
                                                 <div class="input-group-append">
                                                     <button class="btns" type="button"><i class="ti-search"></i></button>
                                                 </div>
@@ -62,42 +59,20 @@
                                 </aside>
                                 <aside class="single_sidebar_widget popular_post_widget">
                                     <h3 class="widget_title" style="color: #2d2d2d;">Recent Post</h3>
-                                    <div class="media post_item">
-                                        <img src="assets/img/post/post_1.png" alt="post">
-                                        <div class="media-body">
-                                            <a href="blog_details.html">
-                                                <h3 style="color: #2d2d2d;">From life was you fish...</h3>
-                                            </a>
-                                            <p>January 12, 2019</p>
+                                    @foreach(var blog in Model.recentBlogs)
+                                    {
+                                        Blog blog1 = (Blog)blog;
+                                        <div class="media post_item">
+                                            <img src="@blog1.Image" style="width:30%; height:30%;" alt="post">
+                                            <div class="media-body">
+                                                <a href="blog_details.html">
+                                                    <h3 style="color: #2d2d2d;">@blog1.Title</h3>
+                                                </a>
+                                                <p>@blog1.PublishDate.Value.Date.ToString("MM/dd/yyyy")</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="media post_item">
-                                        <img src="assets/img/post/post_2.png" alt="post">
-                                        <div class="media-body">
-                                            <a href="blog_details.html">
-                                                <h3 style="color: #2d2d2d;">The Amazing Hubble</h3>
-                                            </a>
-                                            <p>02 Hours ago</p>
-                                        </div>
-                                    </div>
-                                    <div class="media post_item">
-                                        <img src="assets/img/post/post_3.png" alt="post">
-                                        <div class="media-body">
-                                            <a href="blog_details.html">
-                                                <h3 style="color: #2d2d2d;">Astronomy Or Astrology</h3>
-                                            </a>
-                                            <p>03 Hours ago</p>
-                                        </div>
-                                    </div>
-                                    <div class="media post_item">
-                                        <img src="assets/img/post/post_4.png" alt="post">
-                                        <div class="media-body">
-                                            <a href="blog_details.html">
-                                                <h3 style="color: #2d2d2d;">Asteroids telescope</h3>
-                                            </a>
-                                            <p>01 Hours ago</p>
-                                        </div>
-                                    </div>
+                                    }
+                                    
                                 </aside>
                                 <aside class="single_sidebar_widget newsletter_widget">
                                     <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>

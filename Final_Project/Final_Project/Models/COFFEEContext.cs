@@ -80,8 +80,8 @@ namespace Final_Project.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.Price)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                    .HasColumnType("float");
+
 
                 entity.HasOne(d => d.Category)
                     .WithMany(p => p.Products)

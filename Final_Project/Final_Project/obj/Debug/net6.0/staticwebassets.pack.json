@@ -5,6 +5,298 @@
       "PackagePath": "staticwebassets\\Final_Project.bundle.scp.css"
     },
     {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\account\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\account\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\css\\iofrm-style.css",
+      "PackagePath": "staticwebassets\\account\\css\\iofrm-style.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\css\\iofrm-theme3.css",
+      "PackagePath": "staticwebassets\\account\\css\\iofrm-theme3.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic1.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic1.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic2.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic2.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic3.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic3.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic4.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic4.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic5.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic5.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic6.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic6.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic7.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic7.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\graphic8.svg",
+      "PackagePath": "staticwebassets\\account\\images\\graphic8.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\icon1.svg",
+      "PackagePath": "staticwebassets\\account\\images\\icon1.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\account\\images\\img1.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\account\\images\\img2.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\img3.png",
+      "PackagePath": "staticwebassets\\account\\images\\img3.png"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\img4.svg",
+      "PackagePath": "staticwebassets\\account\\images\\img4.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\logo-dark.svg",
+      "PackagePath": "staticwebassets\\account\\images\\logo-dark.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\logo-dark2.svg",
+      "PackagePath": "staticwebassets\\account\\images\\logo-dark2.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\images\\logo-light.svg",
+      "PackagePath": "staticwebassets\\account\\images\\logo-light.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form1.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form1.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form10.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form10.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form11.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form11.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form12.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form12.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form13.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form13.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form14.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form14.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form15-p.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form15-p.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form15.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form15.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form16.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form16.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form17.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form17.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form18.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form18.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form19.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form19.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form2.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form2.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form20.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form20.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form21.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form21.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form22.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form22.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form23.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form23.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form24.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form24.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form25.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form25.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form26.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form26.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form27.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form27.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form28.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form28.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form29.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form29.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form3.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form3.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form4.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form4.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form5.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form5.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form6.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form6.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form7.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form7.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form8.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form8.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\img\\form9.jpg",
+      "PackagePath": "staticwebassets\\account\\img\\form9.jpg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\account\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\js\\cleave.min.js",
+      "PackagePath": "staticwebassets\\account\\js\\cleave.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\account\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\js\\main.js",
+      "PackagePath": "staticwebassets\\account\\js\\main.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\account\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.eot@",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.eot@",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.eot@",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.eot@"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\account\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\account\\webfonts\\fa-solid-900.woff2"
+    },
+    {
       "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\assets\\css\\animate.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\animate.min.css"
     },
