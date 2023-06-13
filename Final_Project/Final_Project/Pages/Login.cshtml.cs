@@ -25,7 +25,7 @@ namespace Final_Project.Pages
                 if (user.Username == "Admin" && user.Password == "Admin")
                 {
                     HttpContext.Session.SetString("CurrentUser", user.Fullname);
-                    return RedirectToPage("/Admin");
+                    return RedirectToPage("/Admin/ProductList");
                 }
                 else
                 {
