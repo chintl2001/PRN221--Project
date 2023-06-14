@@ -1,37 +1,37 @@
 ﻿@page
-@model Final_Project.Pages.Admin.AddProductModel
-@using Final_Project.Models;
+@model Final_Project.Pages.Admin.UpdateProductModel
 @{
     Layout = "_AdminLayout";
 }
+@using Final_Project.Models;
 
 <div class="content">
     <div class="page-header">
         <div class="page-title">
-            <h4>Product Add</h4>
-            <h6>Create new product</h6>
+            <h4>Product Edit</h4>
+            <h6>Update product</h6>
         </div>
     </div>
 
     <div class="card">
         <div class="card-body">
-            <form asp-page="AddProduct" method="post">
+            <form method="post">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="form-group">
                             <label>Product Name</label>
-                            <input type="text" asp-for="name">
+                            <input type="text" asp-for="product.Name" value="@Model.product.Name">
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="form-group">
                             <label>Category</label>
-                            <select class="select" asp-for="category">
+                            <select class="select" asp-for="product.CategoryId">
                                 <option>Choose Category</option>
                                 @foreach (var category in Model.Categories)
                                 {
                                     Category category1 = (Category)category;
-                                    <option value="@category1.Id">@category1.Name</option>
+                                    <option value="@category1.Id" selected="@(category1.Id.ToString().Equals(Model.product.CategoryId))">@category1.Name</option>
                                 }
                             </select>
                         </div>
@@ -39,33 +39,42 @@
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="form-group">
                             <label>Price</label>
-                            <input type="text" asp-for="price">
+                            <input type="text" value="@Model.product.Price" asp-for="product.Price">
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-12">
                         <div class="form-group">
                             <label>Description</label>
-                            <input type="text" asp-for="description">
+                            <input type="text" value="@Model.product.Description" asp-for="product.Description">
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
                             <label> Product Image</label>
                             <div class="image-upload">
-                                <input type="text" asp-for="image">
+                                <input type="text" value="@Model.product.Image" asp-for="product.Image">
                             </div>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="product-list">
+                            <ul class="row">
+                                <li>
+                                    <div>
+                                        <div class="productviewsimg">
+                                            <img src="@Model.product.Image" alt="img">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="col-lg-12">
-                        <a href="javascript:void(0);" class="btn btn-submit me-2">
-                            <input type="submit" value="Submit" />
-                        </a>
+                        <input type="submit" value="Update" class="btn btn-submit me-2" />
                         <a asp-page="ProductList" class="btn btn-cancel">Cancel</a>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-
 </div>
-

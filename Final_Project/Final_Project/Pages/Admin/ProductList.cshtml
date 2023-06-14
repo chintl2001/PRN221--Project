@@ -1,5 +1,6 @@
 ﻿@page
 @model Final_Project.Pages.Admin.ProductListModel
+@using Final_Project.Models;
 @{
     Layout = "_AdminLayout";
 }
@@ -59,57 +60,46 @@
                     <div class="card-body pb-0">
                         <div class="row">
                             <div class="col-lg-12 col-sm-12">
+                                <form asp-page="ProductList" method="post">
                                 <div class="row">
                                     <div class="col-lg col-sm-6 col-12">
                                         <div class="form-group">
-                                            <select class="select">
-                                                <option>Choose Product</option>
-                                                <option>Macbook pro</option>
-                                                <option>Orange</option>
-                                            </select>
+                                            <input type="text" value="@Model.SearchText" name="searchText" placeholder="Search text" />
                                         </div>
                                     </div>
                                     <div class="col-lg col-sm-6 col-12">
                                         <div class="form-group">
-                                            <select class="select">
-                                                <option>Choose Category</option>
-                                                <option>Computers</option>
-                                                <option>Fruits</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg col-sm-6 col-12">
-                                        <div class="form-group">
-                                            <select class="select">
-                                                <option>Choose Sub Category</option>
-                                                <option>Computer</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg col-sm-6 col-12">
-                                        <div class="form-group">
-                                            <select class="select">
-                                                <option>Brand</option>
-                                                <option>N/D</option>
+                                            <select class="select" name="category">
+                                                <option value="">Category</option>
+                                                @foreach (var category in Model.Categories ?? Enumerable.Empty<Category>())
+                                                {
+                                                    Category category1 = (Category)category;
+                                                    <option value="@category1.Id" selected="@(category1.Id.ToString().Equals( Model.Category))">@category1.Name</option>
+                                                }
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-lg col-sm-6 col-12 ">
                                         <div class="form-group">
-                                            <select class="select">
-                                                <option>Price</option>
-                                                <option>150.00</option>
+                                            <select class="select" name="price">
+                                                <option value="">Price</option>
+                                                <option value="ascending" selected="@(Model.Price == "ascending")">Ascending</option>
+                                                <option value="descending" selected="@(Model.Price == "descending")">Descending</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-lg-1 col-sm-6 col-12">
                                         <div class="form-group">
-                                            <a class="btn btn-filters ms-auto">
-                                                <img src="../adminassets/img/icons/search-whites.svg" alt="img">
-                                            </a>
+                                            <button type="submit">
+                                                <a class="btn btn-filters ms-auto">
+                                                    <img src="../adminassets/img/icons/search-whites.svg" alt="img">
+                                                </a>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
+                                </form>
+                                
                             </div>
                         </div>
                     </div>
@@ -120,36 +110,31 @@
                         <thead>
                             <tr>
                                 <th>Product Name</th>
-                                <th>SKU</th>
-                                <th>Category </th>
-                                <th>Brand</th>
-                                <th>price</th>
-                                <th>Unit</th>
-                                <th>Qty</th>
-                                <th>Created By</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Description</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
+                        @foreach(var product in Model.Products)
+                        {
+                            Product product1 = (Product)product;
                             <tr>
                                 <td class="productimgname">
                                     <a href="javascript:void(0);" class="product-img">
-                                        <img src="../adminassets/img/product/product1.jpg" alt="product">
+                                        <img src="@product1.Image" alt="product">
                                     </a>
-                                    <a href="javascript:void(0);">Macbook pro</a>
+                                    <a href="javascript:void(0);">@product1.Name</a>
                                 </td>
-                                <td>PT001</td>
-                                <td>Computers</td>
-                                <td>N/D</td>
-                                <td>1500.00</td>
-                                <td>pc</td>
-                                <td>100.00</td>
-                                <td>Admin</td>
+                                <td>@product1.Category.Name</td>
+                                <td>@product1.Price</td>
+                                <td>@product1.Description</td>
                                 <td>
-                                    <a class="me-3" href="product-details.html">
+                                    <a class="me-3" asp-page="">
                                         <img src="../adminassets/img/icons/eye.svg" alt="img">
                                     </a>
-                                    <a class="me-3" href="editproduct.html">
+                                    <a class="me-3" asp-page="UpdateProduct" asp-route-id="@product1.Id">
                                         <img src="../adminassets/img/icons/edit.svg" alt="img">
                                     </a>
                                     <a class="confirm-text" href="javascript:void(0);">
@@ -157,6 +142,8 @@
                                     </a>
                                 </td>
                             </tr>
+                        }
+                        
                         </tbody>
                     </table>
                 </div>

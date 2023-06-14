@@ -1,4 +1,6 @@
 using Final_Project.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,16 @@ builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDbContext<COFFEEContext>();
+builder.Services.AddDbContext<COFFEEContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.EnableSensitiveDataLogging(); 
+});
+builder.Logging.AddConsole(options =>
+{
+    options.IncludeScopes = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +38,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.UseSession();
+builder.Services.AddHttpContextAccessor();
 
 app.UseSession();
 

@@ -25,9 +25,14 @@ namespace Final_Project.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
+                optionsBuilder.UseSqlServer(connectionString => connectionString
+       .EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null)
+       .MigrationsAssembly(typeof(COFFEEContext).Assembly.GetName().Name))
+       .LogTo(Console.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, LogLevel.Information);
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Server=(local);Database=COFFEE;User Id=sa;Password=sa;");
             }
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

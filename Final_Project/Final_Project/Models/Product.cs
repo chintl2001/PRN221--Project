@@ -13,5 +13,6 @@ namespace Final_Project.Models
         public string? Image { get; set; }
 
         public virtual Category? Category { get; set; }
+
     }
 }
