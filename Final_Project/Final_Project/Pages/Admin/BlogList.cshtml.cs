@@ -10,8 +10,6 @@ namespace Final_Project.Pages.Admin
         private COFFEEContext COFFEEContext;
         public List<Blog> Blogs { get; set; }
 
-        [BindProperty(Name = "searchText")]
-        public string SearchText { get; set; }
         public BlogListModel(COFFEEContext _COFFEEContext)
         {
             COFFEEContext = _COFFEEContext;
@@ -36,5 +34,6 @@ namespace Final_Project.Pages.Admin
 
             return Page();
         }
+
     }
 }
