@@ -1,0 +1,74 @@
+﻿@page
+@model Final_Project.Pages.Admin.BlogListModel
+@using Final_Project.Models
+@{
+    Layout = "_AdminLayout";
+}
+<div class="content">
+    <div class="page-header">
+        <div class="page-title">
+            <h4>Blog list</h4>
+            <h6>View/Search Blog</h6>
+        </div>
+        <div class="page-btn">
+            <a asp-page="AddBlog" class="btn btn-added">
+                <img src="../adminassets/img/icons/plus.svg" class="me-1" alt="img">Add Blog
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-top">
+                <div class="search-set">
+                    <div class="search-input">
+                        <a class="btn btn-searchset"><img src="../adminassets/img/icons/search-white.svg" alt="img"></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="table-responsive">
+                <table class="table  datanew">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Auther</th>
+                            <th>ShortContent</th>
+                            <th>Content</th>
+                            <th>Image</th>
+                            <th>PublishDate</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var blog in Model.Blogs)
+                        {
+                            Blog blogD = (Blog)blog;
+                            <tr>
+                                <td>@blogD.Title</td>
+                                <td>@blogD.Author</td>
+                                <td style="white-space: pre-wrap;">@blogD.ShortContent</td>
+                                <td style ="white-space: pre-wrap;">@blogD.Content</td>
+                                <td class="productimgname">
+                                    <a href="javascript:void(0);" class="product-img">
+                                        <img src="@blogD.Image" alt="product">
+                                    </a>
+                                </td>
+                                <td>@blogD.PublishDate</td>
+                                <td>
+                                    <a class="me-3" asp-page="EditBlog" asp-route-id="@blogD.Id">
+                                        <img src="../adminassets/img/icons/edit.svg" alt="img">
+                                    </a>
+                                    <a class="me-3 confirm-text" href="javascript:void(0);">
+                                        <img src="../adminassets/img/icons/delete.svg" alt="img">
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

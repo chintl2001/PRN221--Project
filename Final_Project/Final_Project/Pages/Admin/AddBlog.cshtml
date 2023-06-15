@@ -1,0 +1,63 @@
+﻿@page
+@model Final_Project.Pages.Admin.AddBlogModel
+@{
+    Layout = "_AdminLayout";
+}
+<div class="content">
+    <div class="page-header">
+        <div class="page-title">
+            <h4>Add Blog</h4>
+            <h6>Create new Blog</h6>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <form asp-page="AddBlog" method="post">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input type="text" asp-for="title">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>Auther</label>
+                            <input type="text" asp-for="auther">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label>Content</label>
+<textarea class="form-control" asp-for="content"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label>ShortContent</label>
+<textarea class="form-control" asp-for="shortContent"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-12">
+                        <label>Image</label>
+                        <div class="form-group">
+                            <input type="text" asp-for="image" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>PublishDate</label>
+                            <input type="datetime-local" asp-for="publishDate">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <button href="javascript:void(0);" type="submit" class="btn btn-submit me-2">Submit</button>
+                        <a asp-page="BlogList" class="btn btn-cancel">Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
