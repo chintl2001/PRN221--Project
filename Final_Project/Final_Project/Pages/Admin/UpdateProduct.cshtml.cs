@@ -14,6 +14,8 @@ namespace Final_Project.Pages.Admin
         }
         [BindProperty]
         public Product product { get; set; }
+        [BindProperty]
+        public int id { get; set; }
         public List<Category> Categories { get; set; }
     
         public async Task<IActionResult> OnGetAsync(int id)
@@ -30,23 +32,20 @@ namespace Final_Project.Pages.Admin
         }
         public async Task<IActionResult> OnPostAsync()
         {
-            int id = Convert.ToInt32(RouteData.Values["id"]);
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-
-            Product existingProduct = await COFFEEContext.Products.FirstOrDefaultAsync(p => p.Id == id);
-            if (existingProduct == null)
-            {
-                return NotFound();
-            }
+           
+            Product? existingProduct = await COFFEEContext.Products.FirstOrDefaultAsync(p => p.Id == id);
 
             existingProduct.Name = product.Name;
             existingProduct.CategoryId = product.CategoryId;
             existingProduct.Price = product.Price;
             existingProduct.Description = product.Description;
             existingProduct.Image = product.Image;
+
+            COFFEEContext.Update(existingProduct);
 
             try
             {

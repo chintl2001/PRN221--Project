@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PRN221\Final_Project\PRN221--Project\Final_Project\Final_Project
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PRN221/Final_Project/PRN221--Project/Final_Project/Final_Project/Pages/Admin/AddBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN221/Final_Project/PRN221--Project/Final_Project/Final_Project/Pages/Admin/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN221/Final_Project/PRN221--Project/Final_Project/Final_Project/Pages/Admin/BlogList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmxvZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PRN221/Final_Project/PRN221--Project/Final_Project/Final_Project/Pages/Admin/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVsZXRlUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PRN221/Final_Project/PRN221--Project/Final_Project/Final_Project/Pages/Admin/ProductList.cshtml]
