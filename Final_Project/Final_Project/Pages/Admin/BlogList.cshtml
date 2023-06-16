@@ -49,18 +49,18 @@
                                 <td>@blogD.Title</td>
                                 <td>@blogD.Author</td>
                                 <td style="white-space: pre-wrap;">@blogD.ShortContent</td>
-                                <td style ="white-space: pre-wrap;">@blogD.Content</td>
+                                <td style="white-space: pre-wrap;">@blogD.Content</td>
                                 <td class="productimgname">
                                     <a href="javascript:void(0);" class="product-img">
                                         <img src="@blogD.Image" alt="product">
                                     </a>
                                 </td>
-                                <td>@blogD.PublishDate</td>
+                                <td>@blogD.PublishDate.Value.Date.ToString("MM/dd/yyyy")</td>
                                 <td>
                                     <a class="me-3" asp-page="EditBlog" asp-route-id="@blogD.Id">
                                         <img src="../adminassets/img/icons/edit.svg" alt="img">
                                     </a>
-                                    <a class="me-3 confirm-text" href="javascript:void(0);">
+                                    <a class="confirm-text" asp-page="DeleteBlog" asp-route-id="@blogD.Id">
                                         <img src="../adminassets/img/icons/delete.svg" alt="img">
                                     </a>
                                 </td>
