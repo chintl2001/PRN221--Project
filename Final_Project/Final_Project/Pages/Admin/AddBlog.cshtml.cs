@@ -7,6 +7,7 @@ namespace Final_Project.Pages.Admin
     public class AddBlogModel : PageModel
     {
         private COFFEEContext COFFEEContext;
+
         [BindProperty]
         public string title { get; set; }
         [BindProperty]
