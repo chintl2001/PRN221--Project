@@ -40,6 +40,7 @@ namespace Final_Project.Pages
             {
                 blogs = COFFEEContext.Blogs.ToList();
             }
+            recentBlogs = COFFEEContext.Blogs.OrderByDescending(b => b.PublishDate).Take(5).ToList();
             return Page();
         }
 
