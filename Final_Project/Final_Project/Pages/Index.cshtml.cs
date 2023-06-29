@@ -31,5 +31,10 @@ namespace Final_Project.Pages
             Blogs = COFFEEContext.Blogs.OrderBy(p => Guid.NewGuid()).Take(2).ToList();
 
         }
+
+        public ActionResult Chat()
+        {
+            return Page();
+        }
     }
 }

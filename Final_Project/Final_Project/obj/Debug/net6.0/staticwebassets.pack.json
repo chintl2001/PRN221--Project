@@ -2961,12 +2961,60 @@
       "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
     },
     {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\chatBot.css",
+      "PackagePath": "staticwebassets\\css\\chatBot.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\chatBot.less",
+      "PackagePath": "staticwebassets\\css\\chatBot.less"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\select2.min.css"
+    },
+    {
       "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\css\\timeline.css",
+      "PackagePath": "staticwebassets\\css\\timeline.css"
+    },
+    {
       "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\img\\we-are-here.svg",
+      "PackagePath": "staticwebassets\\img\\we-are-here.svg"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\select2.min.js"
     },
     {
       "Id": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\wwwroot\\js\\site.js",
