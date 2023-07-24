@@ -1,6 +1,7 @@
 using Final_Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
 
 namespace Final_Project.Pages.Admin
 {
@@ -17,6 +18,7 @@ namespace Final_Project.Pages.Admin
         [BindProperty]
         public string description { get; set; }
         [BindProperty]
+        [Url]
         public string image { get; set; }
 
         public AddProductModel(COFFEEContext _COFFEEContext)

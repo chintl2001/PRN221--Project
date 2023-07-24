@@ -128,3 +128,4 @@ D:\SM2023\PRN221\Project_Final\PRN221--Project\Final_Project\Final_Project\obj\D
 D:\SM2023\PRN221\Project_Final\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\Final_Project.pdb
 D:\SM2023\PRN221\Project_Final\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\Final_Project.genruntimeconfig.cache
 D:\SM2023\PRN221\Project_Final\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\ref\Final_Project.dll
+D:\PRN221\Final_Project\PRN221--Project\Final_Project\Final_Project\bin\Debug\net6.0\libman.json
