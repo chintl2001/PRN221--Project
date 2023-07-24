@@ -4,12 +4,12 @@
 
 <div class="category-area">
     <div class="container">
-            <div class="col-xl-7 col-lg-8 col-md-10">
-                <div class="section-tittle mb-50">
-                    <h2>Shop with us</h2>
-                    <p>Browse from @Model.Products.Count() latest items</p>
-                </div>
+        <div class="col-xl-7 col-lg-8 col-md-10">
+            <div class="section-tittle mb-50">
+                <h2>Shop with us</h2>
+                <p>Browse from @Model.Products.Count() latest items</p>
             </div>
+        </div>
         <div class="row">
 
             <div class="col-xl-3 col-lg-3 col-md-4 ">
@@ -47,11 +47,11 @@
                     </form>
                 </div>
             </div>
-          
-             <div class="col-xl-9 col-lg-9 col-md-8 ">
 
-                  <div class="new-arrival new-arrival2">
-                        <div class="row">
+            <div class="col-xl-9 col-lg-9 col-md-8 ">
+
+                <div class="new-arrival new-arrival2">
+                    <div class="row">
                         @foreach (var product in Model.Products)
                         {
                             Product product1 = (Product)product;
@@ -65,8 +65,8 @@
                                         </div>
                                     </div>
                                     <div class="popular-caption">
-                                        <h3><a asp-page="ProductDetail">@product1.Name</a></h3>
-                                        <div class="rating mb-10">
+                                        <h3><a asp-page="ProductDetail" asp-route-id="@product1.Id">@product1.Name</a></h3>
+                                    <div class="rating mb-10">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -77,12 +77,12 @@
                                     </div>
                                 </div>
                             </div>
-                         }
+                        }
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </div>
 
