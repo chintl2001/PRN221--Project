@@ -18,6 +18,8 @@ namespace Final_Project.Models
 
         public virtual DbSet<Blog> Blogs { get; set; } = null!;
         public virtual DbSet<Category> Categories { get; set; } = null!;
+        public virtual DbSet<Order> Orders { get; set; } = null!;
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
@@ -25,14 +27,9 @@ namespace Final_Project.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(connectionString => connectionString
-       .EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null)
-       .MigrationsAssembly(typeof(COFFEEContext).Assembly.GetName().Name))
-       .LogTo(Console.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, LogLevel.Information);
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=(local);Database=COFFEE;User Id=sa;Password=123456;");
+                optionsBuilder.UseSqlServer("Server=(local);Database=COFFEE;uid=sa;pwd=sa;");
             }
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -46,11 +43,12 @@ namespace Final_Project.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.Content).HasColumnType("text");
-                entity.Property(e => e.ShortContent).HasColumnType("text");
+
                 entity.Property(e => e.Image).HasColumnType("text");
 
-                entity.Property(e => e.PublishDate)
-                .HasColumnType("datetime");
+                entity.Property(e => e.PublishDate).HasColumnType("date");
+
+                entity.Property(e => e.ShortContent).HasColumnType("text");
 
                 entity.Property(e => e.Title)
                     .HasMaxLength(50)
@@ -70,6 +68,41 @@ namespace Final_Project.Models
                     .IsUnicode(false);
             });
 
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.ToTable("Order");
+
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.Note).HasColumnType("text");
+
+                entity.Property(e => e.OrderDate)
+                    .HasColumnType("date")
+                    .HasColumnName("Order_date");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Orders)
+                    .HasForeignKey(d => d.UserId)
+                    .HasConstraintName("FK_Order_User");
+            });
+
+            modelBuilder.Entity<OrderDetail>(entity =>
+            {
+                entity.ToTable("OrderDetail");
+
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.HasOne(d => d.Order)
+                    .WithMany(p => p.OrderDetails)
+                    .HasForeignKey(d => d.OrderId)
+                    .HasConstraintName("FK_OrderDetail_Order");
+
+                entity.HasOne(d => d.Product)
+                    .WithMany(p => p.OrderDetails)
+                    .HasForeignKey(d => d.ProductId)
+                    .HasConstraintName("FK_OrderDetail_Product");
+            });
+
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.ToTable("Product");
@@ -83,10 +116,6 @@ namespace Final_Project.Models
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
                     .IsUnicode(false);
-
-                entity.Property(e => e.Price)
-                    .HasColumnType("float");
-
 
                 entity.HasOne(d => d.Category)
                     .WithMany(p => p.Products)

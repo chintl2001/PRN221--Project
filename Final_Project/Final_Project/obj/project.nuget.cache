@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JbFcmi2UXY/g01ghOzUlkL41mll5u71eiFTLP4jdaYQ6PARPuo4MNGPO8kwag0jofS1rBIoaGG87WA7w1WhwxQ==",
+  "dgSpecHash": "+3fg0/QWQWHXI8xpa5OuMjWSBKSGcYNUFa6aNmot/jMiQa2uIL1o2kxD1s3eu6zivR6PNVJYnYxTx3X44eQhvQ==",
   "success": true,
-  "projectFilePath": "A:\\PRN_Quynhbn\\PRN221--Project\\Final_Project\\Final_Project\\Final_Project.csproj",
+  "projectFilePath": "D:\\PRN221\\Final_Project\\PRN221--Project\\Final_Project\\Final_Project\\Final_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hatda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\hatda\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.0\\microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512",
     "C:\\Users\\hatda\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\hatda\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\hatda\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
