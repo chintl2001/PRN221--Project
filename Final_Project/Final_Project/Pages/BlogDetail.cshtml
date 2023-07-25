@@ -1,4 +1,4 @@
-﻿@page 
+﻿@page
 @model BlogDetail
 @using Final_Project.Models;
 <section class="blog_area single-post-area section-padding">
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="comments-area">
+                <div class="comments-area" id="commentsArea">
                     <h4>03 Comments</h4>
                     <div class="comment-list">
                         <div class="single-comment justify-content-between d-flex">
@@ -68,8 +68,11 @@
                                             </h5>
                                             <p class="date">December 4, 2017 at 3:12 pm </p>
                                         </div>
+                                        @{
+                                            var newCommentId = Guid.NewGuid().ToString();
+                                        }
                                         <div class="reply-btn">
-                                            <a href="#" class="btn-reply text-uppercase">reply</a>
+                                            <a href="#" class="btn-reply text-uppercase" onclick="showReplyForm(event, '@newCommentId')">reply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -165,3 +168,97 @@
         </div>
     </div>
 </section>
+
+<!-- Nếu bạn chưa có thư viện jQuery, hãy thêm dòng sau để sử dụng jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Biến lưu trữ thông tin các bình luận
+    var comments = [];
+
+    // Xử lý sự kiện khi người dùng gửi bình luận
+    document.getElementById('commentForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Ngăn chặn gửi form mặc định
+
+        // Lấy nội dung bình luận từ textarea
+        var commentContent = document.getElementById('comment').value;
+
+        // Kiểm tra xem nội dung bình luận có trống hay không
+        if (commentContent.trim() === '') {
+            alert('Please enter your comment.'); // Hiển thị thông báo nếu nội dung bình luận trống
+            return;
+        }
+
+        // Tạo một đối tượng bình luận mới
+        var newComment = {
+            Id: comments.length + 1, // Định danh cho bình luận
+            UserName: 'Anonymous', // Bạn có thể thay đổi thành tên người dùng đã đăng nhập nếu có
+            Content: commentContent,
+            DateTime: new Date().toLocaleString(),
+            Replies: [] // Danh sách câu trả lời cho bình luận này
+        };
+
+        // Hiển thị bình luận ngay lập tức trên giao diện
+        var commentElement = '<div class="comment-list" id="comment_' + newComment.Id + '">' +
+            '<div class="single-comment justify-content-between d-flex"><div class="user justify-content-between d-flex">' +
+            '<div class="thumb"><img src="../adminassets/img/blog/comment_1.png" alt=""></div><div class="desc">' +
+            '<p class="comment">' + newComment.Content + '</p><div class="d-flex justify-content-between">' +
+            '<div class="d-flex align-items-center"><h5><a href="#">' + newComment.UserName + '</a></h5>' +
+            '<p class="date">' + newComment.DateTime + '</p></div><div class="reply-btn">' +
+            '<a href="#" class="btn-reply text-uppercase" onclick="showReplyForm(event, ' + newComment.Id + ')">reply</a></div></div>' +
+            '<div class="reply-form" id="replyForm_' + newComment.Id + '"></div></div></div></div></div>';
+
+        document.getElementById('commentsArea').innerHTML += commentElement;
+
+        // Xóa nội dung bình luận từ textarea sau khi gửi thành công
+        document.getElementById('comment').value = '';
+
+        // Lưu trữ bình luận vào biến comments
+        comments.push(newComment);
+    });
+
+    // Xử lý sự kiện khi người dùng nhấn vào nút "reply"
+    function showReplyForm(event, commentId) {
+        event.preventDefault(); // Ngăn chặn điều hướng đến đầu trang khi nhấn reply
+
+        // Tạo form trả lời cho bình luận với id tương ứng
+        var replyForm = '<form class="form-contact comment_form" onsubmit="submitReply(' + commentId + '); return false;">' +
+            '<div class="row"><div class="col-12"><div class="form-group">' +
+            '<textarea class="form-control w-100" id="reply_' + commentId + '" cols="30" rows="3" placeholder="Write Reply"></textarea>' +
+            '</div></div></div><div class="form-group">' +
+            '<button type="submit" class="button button-contactForm btn_1 boxed-btn">Post Reply</button></div></form>';
+
+        // Hiển thị form trả lời lên giao diện
+        document.getElementById('replyForm_' + commentId).innerHTML = replyForm;
+    }
+
+    // Xử lý sự kiện khi người dùng gửi câu trả lời
+    function submitReply(commentId) {
+        var replyContent = document.getElementById('reply_' + commentId).value;
+
+        // Tạo một đối tượng trả lời mới
+        var newReply = {
+            Id: comments[commentId - 1].Replies.length + 1, // Định danh cho câu trả lời
+            UserName: 'Anonymous', // Bạn có thể thay đổi thành tên người dùng đã đăng nhập nếu có
+            Content: replyContent,
+            DateTime: new Date().toLocaleString()
+        };
+
+        // Thêm câu trả lời vào danh sách câu trả lời của bình luận tương ứng
+        comments[commentId - 1].Replies.push(newReply);
+
+        // Hiển thị câu trả lời ngay lập tức trên giao diện
+        var replyElement = '<p class="reply">' + newReply.Content + '<br><span class="reply-meta">' +
+            '<a href="#">' + newReply.UserName + '</a> ' + newReply.DateTime + '</span></p>';
+
+        document.getElementById('comment_' + commentId).innerHTML += replyElement;
+
+        // Xóa nội dung trả lời từ textarea sau khi gửi thành công
+        document.getElementById('reply_' + commentId).value = '';
+
+        // Xóa form trả lời sau khi đã gửi trả lời thành công
+        document.getElementById('replyForm_' + commentId).innerHTML = '';
+    }
+</script>
+
+
+
