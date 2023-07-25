@@ -195,3 +195,4 @@ A:\PRN_Quynhbn\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\refi
 A:\PRN_Quynhbn\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\Final_Project.pdb
 A:\PRN_Quynhbn\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\Final_Project.genruntimeconfig.cache
 A:\PRN_Quynhbn\PRN221--Project\Final_Project\Final_Project\obj\Debug\net6.0\ref\Final_Project.dll
+A:\PRN_Quynhbn\PRN221--Project\Final_Project\Final_Project\bin\Debug\net6.0\Newtonsoft.Json.dll
