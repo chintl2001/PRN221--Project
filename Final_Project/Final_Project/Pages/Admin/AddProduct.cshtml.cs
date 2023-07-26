@@ -29,10 +29,17 @@ namespace Final_Project.Pages.Admin
         {
             Categories = COFFEEContext.Categories.ToList();
         }
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPostAsync()
         {
             if (ModelState.IsValid)
             {
+                var existingProduct = COFFEEContext.Products.FirstOrDefault(p => p.Name == name);
+                if (existingProduct != null)
+                {
+                    TempData["ErrorMessage"] = "A product with the same name already exists.";
+                    OnGet();
+                    return Page();
+                }
                 Product newProduct = new Product
                 {
                     Name = name,
@@ -43,7 +50,7 @@ namespace Final_Project.Pages.Admin
                 };
 
                 COFFEEContext.Products.Add(newProduct);
-                await COFFEEContext.SaveChangesAsync();
+                 COFFEEContext.SaveChangesAsync();
 
                 return RedirectToPage("/Admin/ProductList");
             }

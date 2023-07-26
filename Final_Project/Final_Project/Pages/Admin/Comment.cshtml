@@ -1,0 +1,68 @@
+﻿@page
+@model Final_Project.Pages.Admin.CommentModel
+@using Final_Project.Models
+@{
+    Layout = "_AdminLayout";
+}
+<div class="content">
+    <div class="page-header">
+        <div class="page-title">
+            <h4>Comment list</h4>
+            <h6>View/Search Blog</h6>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-top">
+                <div class="search-set">
+                    <div class="search-input">
+                        <a class="btn btn-searchset"><img src="../adminassets/img/icons/search-white.svg" alt="img"></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="table-responsive">
+                <table class="table  datanew">
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Comment</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var comment in Model.Comments)
+                        {
+                            <tr>
+                                <td>Anonymous</td>
+                                <td>@comment.Comment1</td>
+                                <td>@comment.Date</td>
+                                <td>@comment.Status</td>
+                                <td>
+                                    @if (comment.Status == 0)
+                                    {
+                                        <form asp-page-handler="ToggleStatus" asp-route-id="@comment.Id" method="post">
+                                            <input type="hidden" name="status" value="1" />
+                                            <button type="submit" class="btn btn-primary">Approve</button>
+                                        </form>
+                                    }
+                                    else if (comment.Status == 1)
+                                    {
+                                        <form asp-page-handler="ToggleStatus" asp-route-id="@comment.Id" method="post">
+                                            <input type="hidden" name="status" value="0" />
+                                            <button type="submit" class="btn btn-warning">Unapprove</button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

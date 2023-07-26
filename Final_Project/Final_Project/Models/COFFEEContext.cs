@@ -18,6 +18,7 @@ namespace Final_Project.Models
 
         public virtual DbSet<Blog> Blogs { get; set; } = null!;
         public virtual DbSet<Category> Categories { get; set; } = null!;
+        public virtual DbSet<Comment> Comments { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<OrderDetail> OrderDetails { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
@@ -28,7 +29,7 @@ namespace Final_Project.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=(local);Database=COFFEE;uid=sa;pwd=123456;");
+                optionsBuilder.UseSqlServer("Server=(local);Database=COFFEE;uid=sa;pwd=sa;");
             }
         }
 
@@ -66,6 +67,27 @@ namespace Final_Project.Models
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<Comment>(entity =>
+            {
+                entity.ToTable("Comment");
+
+                entity.Property(e => e.Comment1)
+                    .HasColumnType("text")
+                    .HasColumnName("Comment");
+
+                entity.Property(e => e.Date).HasColumnType("date");
+
+                entity.HasOne(d => d.Blog)
+                    .WithMany(p => p.Comments)
+                    .HasForeignKey(d => d.BlogId)
+                    .HasConstraintName("FK_Comment_Blog");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Comments)
+                    .HasForeignKey(d => d.UserId)
+                    .HasConstraintName("FK_Comment_User");
             });
 
             modelBuilder.Entity<Order>(entity =>
