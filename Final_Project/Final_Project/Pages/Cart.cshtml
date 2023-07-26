@@ -1,0 +1,76 @@
+﻿@page
+@model Final_Project.Pages.CartModel
+@using Microsoft.AspNetCore.Http
+
+<div class="container">
+    <h1>Shopping Cart</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-lg">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price</td>
+                        <td>@(item.Price * item.Quantity)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <button class="btn btn-primary" id="confirmOrderBtn">Confirm Order</button>
+</div>
+
+<!-- Popup for successful payment -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Payment Successful</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Your payment was successful. Thank you for your order!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the Confirm Order button
+        var confirmOrderBtn = document.getElementById('confirmOrderBtn');
+
+        // Add click event listener to the button
+        confirmOrderBtn.addEventListener('click', function () {
+            // Simulate the payment process (you can replace this with your actual payment logic)
+            // For demonstration purposes, let's assume the payment was successful after 2 seconds.
+            setTimeout(function () {
+                // Show the success modal
+                $('#successModal').modal('show');
+
+                // Wait for a few seconds before redirecting to the home page
+                setTimeout(function () {
+                    // Redirect to the home page
+                    window.location.href = '/'; // Replace '/' with the actual home page URL if needed
+                }, 3000); // Wait for 3 seconds before redirecting
+            }, 2000); // Simulate payment process for 2 seconds
+        });
+    });
+</script>
