@@ -28,7 +28,14 @@
         </table>
     </div>
 
-    <button class="btn btn-primary" id="confirmOrderBtn">Confirm Order</button>
+    <form method="post">
+        <div class="form-group">
+            <label for="note">Order Note</label>
+            <textarea class="form-control" id="note" name="note" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="confirmOrderBtn">Confirm Order</button>
+    </form>
+
 </div>
 
 <!-- Popup for successful payment -->

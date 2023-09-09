@@ -26,8 +26,21 @@ namespace Final_Project.Pages
             {
                 ViewData["Username"] = "Login";
             }
-            Categories = COFFEEContext.Categories.ToList();
-            Products = COFFEEContext.Products.OrderBy(p => Guid.NewGuid()).Take(8).ToList();
+            Categories = COFFEEContext.Categories
+            .OrderByDescending(c => c.Products.Count)
+            .Take(4)
+            .ToList();
+            var topProductIds = COFFEEContext.OrderDetails
+        .GroupBy(od => od.ProductId)
+        .OrderByDescending(g => g.Count())
+        .Take(4)
+        .Select(g => g.Key)
+        .ToList();
+
+    // Get the actual product objects based on the IDs
+    Products = COFFEEContext.Products
+        .Where(p => topProductIds.Contains(p.Id)).Take(4)
+        .ToList();
             Blogs = COFFEEContext.Blogs.OrderBy(p => Guid.NewGuid()).Take(2).ToList();
 
         }

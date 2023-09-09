@@ -1,4 +1,4 @@
-using Final_Project.Models;
+﻿using Final_Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -11,14 +11,15 @@ namespace Final_Project.Pages.Shared
     {
         private readonly COFFEEContext _coffeeContext;
         private List<CartItem> CartItems;
+
         public Product Product { get; set; }
         public List<Blog> Blogs { get; set; }
+
         public ProductDetailModel(COFFEEContext coffeeContext)
         {
             _coffeeContext = coffeeContext;
             CartItems = new List<CartItem>();
         }
-        public string Username;
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
@@ -66,5 +67,29 @@ namespace Final_Project.Pages.Shared
             return RedirectToPage("/Cart");
         }
 
+        public IActionResult OnPostRating(int productId, float rate)
+        {
+            Product = _coffeeContext.Products.FirstOrDefault(p => p.Id == productId);
+            if (Product == null)
+            {
+                return NotFound();
+            }
+
+            // Kiểm tra xem giá trị đánh giá hợp lệ (từ 0 đến 5)
+            if (rate >= 0 && rate <= 5)
+            {
+                Product.Rate = rate;
+                _coffeeContext.SaveChanges();
+            }
+            else
+            {
+                // Xử lý nếu giá trị đánh giá không hợp lệ
+                // ...
+            }
+
+            // Sau khi cập nhật đánh giá, chuyển hướng trở lại trang chi tiết sản phẩm
+            return RedirectToPage("/ProductDetail", new { id = Product.Id });
+        }
     }
+      
 }

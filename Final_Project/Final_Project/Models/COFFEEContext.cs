@@ -94,8 +94,6 @@ namespace Final_Project.Models
             {
                 entity.ToTable("Order");
 
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.Note).HasColumnType("text");
 
                 entity.Property(e => e.OrderDate)
@@ -111,8 +109,6 @@ namespace Final_Project.Models
             modelBuilder.Entity<OrderDetail>(entity =>
             {
                 entity.ToTable("OrderDetail");
-
-                entity.Property(e => e.Id).ValueGeneratedNever();
 
                 entity.HasOne(d => d.Order)
                     .WithMany(p => p.OrderDetails)

@@ -10,7 +10,7 @@ namespace Final_Project.Models
         public int? BlogId { get; set; }
         public string? Comment1 { get; set; }
         public DateTime? Date { get; set; }
-        public int? Status { get; set; } = 0;
+        public int? Status { get; set; }
 
         public virtual Blog? Blog { get; set; }
         public virtual User? User { get; set; }
